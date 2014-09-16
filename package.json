@@ -1,0 +1,42 @@
+{
+  "name": "node-js-getting-started",
+  "version": "0.1.0",
+  "description": "A sample nodejs app to run on Heroku and receive StackLead webhook callbacks",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "defaults": "^1.0.0",
+    "express": "~3.4.x",
+    "flatnest": "git://github.com/tedjt/node-flatnest",
+    "mixpanel": "0.0.20",
+    "nodemailer": "^1.3.0",
+    "pg": "^3.4.2",
+    "request": "^2.42.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stacklead/sl-webhook-handler"
+  },
+  "keywords": [
+    "stacklead",
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Ted Tomlinson",
+  "contributors": [
+    "Ted Tomlinson <ted@stacklead.com>"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "should": "^4.0.4",
+    "supertest": "~0.11.0"
+  }
+}

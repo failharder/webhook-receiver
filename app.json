@@ -1,0 +1,6 @@
+{
+  "name": "StackLead webhook handler",
+  "description": "A barebones Node.js app using Express 4 designed to receive StackLead webhook callbacks",
+  "repository": "https://github.com/stacklead/sl-webhook-handler",
+  "keywords": ["stacklead", "node", "express", "static"]
+}
